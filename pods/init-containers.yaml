@@ -10,7 +10,6 @@ spec:
       command:
         - sleep
         - "30"
-  initContainers:
     - image: alpine:3
       name: init-container2
       command:
